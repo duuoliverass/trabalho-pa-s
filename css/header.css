@@ -1,0 +1,42 @@
+*
+header {
+    background: var(--pink);
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 7rem;
+    height: 7rem;
+}
+
+header a {
+    color: var(--gray);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.25rem;
+    letter-spacing: 0.2rem;
+}
+
+header ul {
+    display: flex;
+    gap: 5rem;
+}
+
+header ul,
+header li {
+    list-style: none;
+}
+
+header a.active {
+    color: var( --baby-blue);
+}
+
+header div img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+
+header div:hover,
+header li:hover {
+    transform: scale(1.1);
+    transition: .5s;
+}
