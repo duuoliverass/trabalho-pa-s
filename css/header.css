@@ -1,23 +1,14 @@
-*
 header {
-    background: var(--pink);
-    justify-content: space-between;
+    height: 12.2rem;
+    display: flex;
     align-items: center;
-    padding-inline: 7rem;
-    height: 7rem;
-}
-
-header a {
-    color: var(--gray);
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1.25rem;
-    letter-spacing: 0.2rem;
+    padding-inline: 7.2rem;
+    gap: 4.3rem;
 }
 
 header ul {
     display: flex;
-    gap: 5rem;
+    gap: 5.4rem;
 }
 
 header ul,
@@ -25,18 +16,19 @@ header li {
     list-style: none;
 }
 
+header a {
+    color: var(--grey-1);
+    text-decoration: none;
+    font-size: 2.2rem;
+    line-height: 2.2rem;
+}
+
 header a.active {
-    color: var( --baby-blue);
+    color: var(--white);
+    font-weight: 700;
 }
 
-header div img {
-    width: 4rem;
-    height: 4rem;
-    border-radius: 50%;
-}
-
-header div:hover,
-header li:hover {
+nav li:hover {
     transform: scale(1.1);
-    transition: .5s;
+    transition: .4s;
 }
